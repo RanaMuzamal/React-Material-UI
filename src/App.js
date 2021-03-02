@@ -5,6 +5,7 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import RestoreIcon from '@material-ui/icons/Restore';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import ButtonAppBar from './ButtonAppBar';
 
 const useStyles = makeStyles({
   root: {
@@ -30,6 +31,7 @@ function App() {
         <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
         <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
       </BottomNavigation>
+      <ButtonAppBar>ABC</ButtonAppBar>
     </div>
   );
 }
